@@ -4,7 +4,9 @@ createApp ( {
     // in data si inseriscono gli oggetti
     data () {
         return{
-
+            saluto  : 'Hello Vue!',
+            image   : `<img src="assets/img/image.jpg" alt="image">`
+            
         }
     },
     // in methods si inseriscono le funzioni
